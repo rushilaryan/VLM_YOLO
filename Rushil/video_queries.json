@@ -1,0 +1,8 @@
+{
+  "BIRDS": "Identify all birds and their behaviors",
+  "CAT": "Find all cats and their actions",
+  "DOG": "Detect dogs and what they are doing",
+  "duck": "Find all ducks and analyze their movement",
+  "squirrel": "Detect squirrels and their activities",
+  "test_video": "Find all animals and describe their activities"
+}

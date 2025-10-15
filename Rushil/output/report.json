@@ -1,0 +1,158 @@
+{
+  "query": "Detect all moving objects and track their movement",
+  "video_path": "test_video.mp4",
+  "timestamp": 1760464835.8961096,
+  "final_answer": "Based on the analysis, the most relevant content appears at 0.00s. The scene shows: Motion detected in frame 1. Objects appear to be in movement.",
+  "top_frames": [
+    {
+      "timestamp": 0.0,
+      "caption": "Motion detected in frame 1. Objects appear to be in movement.",
+      "entities": [
+        "motion",
+        "movement",
+        "dynamic"
+      ],
+      "reasoning": "Demo mode analysis based on query keywords: Detect all moving objects and track their movement",
+      "relevance_score": 0.9,
+      "frame_path": "output\\frame_0.00s.jpg",
+      "detections": [
+        {
+          "label": "cat",
+          "confidence": 0.8620808720588684,
+          "bbox": [
+            231,
+            248,
+            1328,
+            1009
+          ]
+        }
+      ],
+      "crop_paths": [
+        "output\\0.00s_cat_0.86_0.jpg"
+      ]
+    },
+    {
+      "timestamp": 1.0,
+      "caption": "Motion detected in frame 2. Objects appear to be in movement.",
+      "entities": [
+        "motion",
+        "movement",
+        "dynamic"
+      ],
+      "reasoning": "Demo mode analysis based on query keywords: Detect all moving objects and track their movement",
+      "relevance_score": 0.9,
+      "frame_path": "output\\frame_1.00s.jpg",
+      "detections": [
+        {
+          "label": "cat",
+          "confidence": 0.8513290286064148,
+          "bbox": [
+            191,
+            258,
+            1335,
+            1015
+          ]
+        }
+      ],
+      "crop_paths": [
+        "output\\1.00s_cat_0.85_0.jpg"
+      ]
+    },
+    {
+      "timestamp": 2.0,
+      "caption": "Motion detected in frame 3. Objects appear to be in movement.",
+      "entities": [
+        "motion",
+        "movement",
+        "dynamic"
+      ],
+      "reasoning": "Demo mode analysis based on query keywords: Detect all moving objects and track their movement",
+      "relevance_score": 0.9,
+      "frame_path": "output\\frame_2.00s.jpg",
+      "detections": [
+        {
+          "label": "cat",
+          "confidence": 0.876136839389801,
+          "bbox": [
+            192,
+            269,
+            1331,
+            1033
+          ]
+        }
+      ],
+      "crop_paths": [
+        "output\\2.00s_cat_0.88_0.jpg"
+      ]
+    },
+    {
+      "timestamp": 3.0,
+      "caption": "Motion detected in frame 4. Objects appear to be in movement.",
+      "entities": [
+        "motion",
+        "movement",
+        "dynamic"
+      ],
+      "reasoning": "Demo mode analysis based on query keywords: Detect all moving objects and track their movement",
+      "relevance_score": 0.9,
+      "frame_path": "output\\frame_3.00s.jpg",
+      "detections": [
+        {
+          "label": "cat",
+          "confidence": 0.8492249250411987,
+          "bbox": [
+            231,
+            246,
+            1319,
+            1031
+          ]
+        }
+      ],
+      "crop_paths": [
+        "output\\3.00s_cat_0.85_0.jpg"
+      ]
+    },
+    {
+      "timestamp": 4.0,
+      "caption": "Motion detected in frame 5. Objects appear to be in movement.",
+      "entities": [
+        "motion",
+        "movement",
+        "dynamic"
+      ],
+      "reasoning": "Demo mode analysis based on query keywords: Detect all moving objects and track their movement",
+      "relevance_score": 0.9,
+      "frame_path": "output\\frame_4.00s.jpg",
+      "detections": [
+        {
+          "label": "cat",
+          "confidence": 0.883770763874054,
+          "bbox": [
+            192,
+            256,
+            1278,
+            1039
+          ]
+        }
+      ],
+      "crop_paths": [
+        "output\\4.00s_cat_0.88_0.jpg"
+      ]
+    }
+  ],
+  "performance": {
+    "total_frames_extracted": 15,
+    "frames_analyzed": 5,
+    "frames_selected": 5,
+    "avg_extraction_time_s": 3.2656044960021973,
+    "total_llm_time_s": 0.17505097389221191,
+    "avg_detection_time_s": 0.3417805671691895,
+    "total_pipeline_time_s": 0,
+    "processing_fps": 15000.0
+  },
+  "limits": {
+    "max_frames_analyzed": 5,
+    "processing_time_limit": "No limit set",
+    "memory_usage": "Not tracked"
+  }
+}
